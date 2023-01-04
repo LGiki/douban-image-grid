@@ -28,8 +28,8 @@ python douban_image_grid.py --id=YOUR_DOUBAN_ID_HERE
 | --id            |                                                              | 你的豆瓣ID，**必填**                                         |
 | --mode          | `book`                                                       | 要生成的图片类型，该参数可以是：`book`、`movie`或`music`，分别表示图书封面墙、电影海报墙和音乐封面墙 |
 | --year          | 当前年份                                                     | 要生成的年份，例如要生成 2022 年看/听过的书/电影/音乐，只需将该项设置为 `2022` 即可<br />如果将该项设置为`all`，则会读取账号所有的已读/已看/已听 |
-| --width         | 600                                                          | 小图的宽度                                                   |
-| --height        | 800                                                          | 小图的高度<br />当 `mode` 参数设置为 `music` 时，将忽略该参数，并将其设置为和 `width` 相等 |
+| --width         | 600                                                          | 小图的宽度，单位：px                                         |
+| --height        | 800                                                          | 小图的高度，单位：px<br />当 `mode` 参数设置为 `music` 时，将忽略该参数，并将其设置为和 `width` 相等 |
 | --column        | 7                                                            | 大图的列数                                                   |
 | --user_agent    | `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36` | 发送请求时使用的 [User Agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent) |
 | --cache_folder  | `cache`                                                      | 缓存图片的目录路径                                           |
