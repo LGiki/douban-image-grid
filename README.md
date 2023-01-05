@@ -23,7 +23,7 @@ python douban_image_grid.py --id=YOUR_DOUBAN_ID_HERE
 
 执行 `python douban_image_grid.py --help` 可以查看全部支持的参数。
 
-豆瓣 ID 可以在 PC 端登陆豆瓣账号，然后点击右上角的 "XXX的账号" 下拉选择 "个人主页"，之后将跳转到的类似 `https://www.douban.com/people/xxxxxxxxx/` 的链接，链接中的 `xxxxxxxxx` 即为豆瓣 ID。
+豆瓣 ID 可以在 PC 端登陆豆瓣账号，然后点击右上角的 "XXX的账号" 下拉选择 "个人主页"，之后将跳转到类似 `https://www.douban.com/people/xxxxxxxxx/` 的链接，链接中的 `xxxxxxxxx` 即为豆瓣 ID。
 
 | 参数            | 默认值                                                       | 说明                                                         |
 | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
